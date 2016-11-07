@@ -1,0 +1,142 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+header {
+	display: fixed;
+	background-color: #EEEEEE;
+	text-align: right;
+	position: relative;
+	height: 30px;
+	padding: 10px 10px;
+	
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+
+h1 {
+	position: absolute;
+	left: 0px;
+	padding-left: 10px;
+	font-size: 24px;
+
+}
+
+.mainNav {
+	padding-right: 10px;
+	
+}
+
+.mainNav li {
+	font-size: 24px;
+}
+
+.mainNav li, .entry li {
+	padding-right: 20px;
+}
+
+.mainNav li:last-of-type, .entry li:last-of-type{
+	padding-right: 0px;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+section {
+	margin-top: 50px;
+}
+
+form {
+	position: relative;
+}
+
+input {
+	position: absolute;
+	height: 30px;
+	width: 300px;
+	margin-right: 20px;
+	padding-left: 10px;
+}
+
+
+.pageview {
+	width: 300px;
+	text-align: center;
+}
+
+input, img, .pageview {
+	border: 2px solid #EEEEEE;
+	border-radius: 5px;
+}
+
+
+
+.pageview ul li {
+	border-right: 2px solid #EEEEEE;
+	padding: 10px;
+
+}
+
+
+.pageview ul li:last-of-type {
+	border-right: none;
+}
+
+
+
+img {
+	position: relative;
+	left: 325px;
+	bottom: 0px;
+	height: 30px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	
+}
+
+h1, .mainNav, .mainNav li, form, li.date, li.job, li.location, .pageview ul li {
+	display:inline-block;
+}
+
+li.date, li.location {
+color: #B1A9B1;
+}
+
+li.job a{
+	color: #0043EB;
+}
+
+a {
+	color: #4A318A;
+	text-decoration: none;
+}
+
+a:hover,  li.job a:hover {
+	color: #9F318A;
+}
+
+.entry {
+	margin-bottom: 20px;
+}
